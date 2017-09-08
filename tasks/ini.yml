@@ -5,7 +5,7 @@
 
 - name: Set Fact -- Nginx dynamic modules
   set_fact:
-    php_confd_path: php_confd_path_raw.stdout
+    php_confd_path: "{{ php_confd_path_raw.stdout }}"
 
 - name: Template Nginx SSL directives out to includes.d
   template:
