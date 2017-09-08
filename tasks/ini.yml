@@ -3,11 +3,11 @@
   shell: "php -r \\@phpinfo\\(\\)\\; | awk -F' => ' '{if ( $1==\"Scan this dir for additional .ini files\" ) print $2; }'"
   register: php_confd_path_raw
 
-- name: Set Fact -- Nginx dynamic modules
+- name: Set Fact -- PHP conf.d path
   set_fact:
     php_confd_path: "{{ php_confd_path_raw.stdout }}"
 
-- name: Template Nginx SSL directives out to includes.d
+- name: Template New Relic .ini file out to conf.d
   template:
     src: 20-newrelic.ini.j2
     dest: "{{ php_confd_path }}/20-newrelic.ini"

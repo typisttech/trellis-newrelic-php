@@ -43,7 +43,7 @@ Add this role to `requirements.yml`:
 
 ```yaml
 - src: TypistTech.trellis-newrelic-php # Case-sensitive!
-  version: 0.1.0 # Check for latest version!
+  version: 0.1.1 # Check for latest version!
 ```
 
 Run `$ ansible-galaxy install -r requirements.yml` to install this new role.
@@ -90,6 +90,24 @@ roles:
 ### `vault_newrelic_license` is not defined
 
 Encrypt your New Relic license key in `group_vars/<environment>/vault.yml`. See [role variables](#role-variables).
+
+### New Relic merges multiple environments into single application
+
+Solution: Define different `newrelic_appname` for different environments.
+
+Tips:
+```yaml
+# group_vars/all/main.yml
+#########################
+
+newrelic_appname: "My App {{ env }}"
+```
+
+## Limitations
+
+### Only one New Relic APM application per server
+
+Pull requests are welcomed.
 
 ## See Also
 
