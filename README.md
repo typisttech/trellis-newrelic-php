@@ -69,8 +69,8 @@ newrelic_daemon_logfile: /var/log/newrelic/newrelic-daemon.log
 
 # Optional extra config
 newrelic:
-  daemon.loglevel: "debug"
-  framework: "wordpress"
+  framework: wordpress
+  browser_monitoring.auto_instrument: false
 ```
 
 ## Hacking Trellis' Playbook
