@@ -1,0 +1,4 @@
+newrelic_logfile: /var/log/newrelic/php_agent.log
+newrelic_appname: PHP Application
+newrelic_daemon_logfile: /var/log/newrelic/newrelic-daemon.log
+newrelic: {}

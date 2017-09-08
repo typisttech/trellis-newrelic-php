@@ -1,0 +1,7 @@
+---
+- fail:
+    msg: vault_newrelic_license is not defined
+  when: vault_newrelic_license is not defined
+
+- include: install.yml
+- include: ini.yml

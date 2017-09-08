@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Tang Rufus
+  description: Install New Relic PHP agent on Trellis servers
+  company: Typist Tech
+  issue_tracker_url: https://github.com/TypistTech/trellis-newrelic-php/issues
+  license: MIT
+  min_ansible_version: 2.3
+  platforms:
+  - name: Ubuntu
+    versions:
+    - xenial
+  galaxy_tags:
+    - trellis
+    - wordpress
+    - newrelic
+    - monitoring
+dependencies: []
