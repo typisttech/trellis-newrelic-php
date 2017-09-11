@@ -1,6 +1,6 @@
 newrelic_config_default:
   license: "{{ vault_newrelic_license }}"
-  appname: My Application
+  appname: "{{ wordpress_sites.keys() | first }} {{ env }}"
   logfile: /var/log/newrelic/php_agent.log
   daemon.logfile: /var/log/newrelic/newrelic-daemon.log
 
