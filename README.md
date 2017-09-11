@@ -1,6 +1,7 @@
 # Trellis New Relic PHP Agent
 
 [![Ansible Role](https://img.shields.io/ansible/role/20311.svg)](https://galaxy.ansible.com/TypistTech/trellis-newrelic-php/)
+[![Build Status](https://travis-ci.org/TypistTech/trellis-newrelic-php.svg?branch=master)](https://travis-ci.org/TypistTech/trellis-newrelic-php)
 [![GitHub tag](https://img.shields.io/github/tag/TypistTech/trellis-newrelic-php.svg)](https://github.com/TypistTech/trellis-newrelic-php/tags)
 [![license](https://img.shields.io/github/license/TypistTech/trellis-newrelic-php.svg)](https://github.com/TypistTech/trellis-newrelic-php/blob/master/LICENSE)
 [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.typist.tech/donate/sunny/)
