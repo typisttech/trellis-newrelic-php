@@ -28,6 +28,7 @@ Install [New Relic PHP agent](https://docs.newrelic.com/docs/agents/php-agent) o
   - [Why don't you hire me?](#why-dont-you-hire-me)
   - [Want to help in other way? Want to be a sponsor?](#want-to-help-in-other-way-want-to-be-a-sponsor)
 - [Feedback](#feedback)
+- [Change log](#change-log)
 - [Author Information](#author-information)
 - [Contributing](#contributing)
 - [License](#license)
@@ -136,6 +137,10 @@ Contact: [Tang Rufus](mailto:tangrufus@gmail.com)
 **Please provide feedback!** We want to make this library useful in as many projects as possible.
 Please submit an [issue](https://github.com/TypistTech/trellis-newrelic-php/issues/new) and point out what you do and don't like, or fork the project and make suggestions.
 **No issue is too small.**
+
+## Change log
+
+Please see [CHANGELOG](./CHANGELOG.md) for more information on what has changed recently.
 
 ## Author Information
 
