@@ -5,6 +5,7 @@
 
 **Merged pull requests:**
 
+- Add changelog [\#4](https://github.com/TypistTech/trellis-newrelic-php/pull/4) ([TangRufus](https://github.com/TangRufus))
 - Refacor: newrelic\_config and change defaults [\#3](https://github.com/TypistTech/trellis-newrelic-php/pull/3) ([TangRufus](https://github.com/TangRufus))
 - Setup TravisCI [\#2](https://github.com/TypistTech/trellis-newrelic-php/pull/2) ([TangRufus](https://github.com/TangRufus))
 
