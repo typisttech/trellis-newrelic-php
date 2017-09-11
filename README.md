@@ -19,6 +19,9 @@ Install [New Relic PHP agent](https://docs.newrelic.com/docs/agents/php-agent) o
 - [Hacking Trellis' Playbook](#hacking-trellis-playbook)
 - [Common Errors](#common-errors)
   - [`vault_newrelic_license` is not defined](#vault_newrelic_license-is-not-defined)
+  - [New Relic merges multiple environments into single application](#new-relic-merges-multiple-environments-into-single-application)
+- [Limitations](#limitations)
+  - [Only one New Relic APM application per server](#only-one-new-relic-apm-application-per-server)
 - [See Also](#see-also)
 - [Support!](#support)
   - [Donate via PayPal *](#donate-via-paypal-)
@@ -66,8 +69,8 @@ vault_newrelic_license: xxxxxxxxxxx
 # Check for default values here: https://github.com/TypistTech/trellis-newrelic-php/blob/master/defaults/main.yml
 # See also: https://docs.newrelic.com/docs/agents/php-agent/configuration/php-agent-configuration
 newrelic_config:
-  framework: wordpress
   appname: "My Awesome App {{ env }}"
+  framework: no_framework
   transaction_tracer.detail: 1
   datastore_tracer.database_name_reporting.enabled: true
 ```
