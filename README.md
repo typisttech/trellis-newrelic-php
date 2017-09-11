@@ -63,15 +63,13 @@ vault_newrelic_license: xxxxxxxxxxx
 # group_vars/<environment>/main.yml
 ###################################
 
-# Default values of required variables
-newrelic_logfile: /var/log/newrelic/php_agent.log
-newrelic_appname: PHP Application
-newrelic_daemon_logfile: /var/log/newrelic/newrelic-daemon.log
-
-# Optional extra config
-newrelic:
+# Check for default values here: https://github.com/TypistTech/trellis-newrelic-php/blob/master/defaults/main.yml
+# See also: https://docs.newrelic.com/docs/agents/php-agent/configuration/php-agent-configuration
+newrelic_config:
   framework: wordpress
-  browser_monitoring.auto_instrument: false
+  appname: "My Awesome App {{ env }}"
+  transaction_tracer.detail: 1
+  datastore_tracer.database_name_reporting.enabled: true
 ```
 
 ## Hacking Trellis' Playbook
@@ -94,14 +92,15 @@ Encrypt your New Relic license key in `group_vars/<environment>/vault.yml`. See 
 
 ### New Relic merges multiple environments into single application
 
-Solution: Define different `newrelic_appname` for different environments.
+Solution: Define different `appname` for different environments.
 
 Tips:
 ```yaml
 # group_vars/all/main.yml
 #########################
 
-newrelic_appname: "My App {{ env }}"
+newrelic_config:
+  appname: "My Awesome App {{ env }}"
 ```
 
 ## Limitations
