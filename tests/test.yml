@@ -1,0 +1,4 @@
+---
+- hosts: all
+  roles:
+    - { role: ../../trellis-newrelic-php, tags: [php, newrelic-php] }
