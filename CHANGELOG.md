@@ -1,10 +1,20 @@
 # Change Log
 
+## [0.2.1](https://github.com/TypistTech/trellis-newrelic-php/tree/0.2.1) (2017-09-13)
+[Full Changelog](https://github.com/TypistTech/trellis-newrelic-php/compare/0.2.0...0.2.1)
+
+**Merged pull requests:**
+
+- Allow overriding newrelic package state [\#8](https://github.com/TypistTech/trellis-newrelic-php/pull/8) ([TangRufus](https://github.com/TangRufus))
+- Test: Remove tests/inventory [\#7](https://github.com/TypistTech/trellis-newrelic-php/pull/7) ([TangRufus](https://github.com/TangRufus))
+- Defer `update\_cache: yes` to `apt` task [\#6](https://github.com/TypistTech/trellis-newrelic-php/pull/6) ([TangRufus](https://github.com/TangRufus))
+
 ## [0.2.0](https://github.com/TypistTech/trellis-newrelic-php/tree/0.2.0) (2017-09-11)
 [Full Changelog](https://github.com/TypistTech/trellis-newrelic-php/compare/0.1.1...0.2.0)
 
 **Merged pull requests:**
 
+- Version bump 0.2.0 [\#5](https://github.com/TypistTech/trellis-newrelic-php/pull/5) ([TangRufus](https://github.com/TangRufus))
 - Add changelog [\#4](https://github.com/TypistTech/trellis-newrelic-php/pull/4) ([TangRufus](https://github.com/TangRufus))
 - Refacor: newrelic\_config and change defaults [\#3](https://github.com/TypistTech/trellis-newrelic-php/pull/3) ([TangRufus](https://github.com/TangRufus))
 - Setup TravisCI [\#2](https://github.com/TypistTech/trellis-newrelic-php/pull/2) ([TangRufus](https://github.com/TangRufus))
