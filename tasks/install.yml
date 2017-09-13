@@ -6,9 +6,9 @@
 - name: Configure the New Relic apt repository
   apt_repository:
     repo: 'deb http://apt.newrelic.com/debian/ newrelic non-free'
-    update_cache: yes
 
 - name: Install the PHP agent
   apt:
     name: newrelic-php5
     state: latest
+    update_cache: yes
