@@ -67,6 +67,13 @@ vault_newrelic_license: xxxxxxxxxxx
 # group_vars/<environment>/main.yml
 ###################################
 
+# Indicates the desired package state.
+# `latest` ensures that the latest version is installed.
+# `present` does not update if already installed.
+# Choices: present|latest
+# Default: latest
+newrelic_package_state: present
+
 # Check for default values here: https://github.com/TypistTech/trellis-newrelic-php/blob/master/defaults/main.yml
 # See also: https://docs.newrelic.com/docs/agents/php-agent/configuration/php-agent-configuration
 newrelic_config:

@@ -10,5 +10,5 @@
 - name: Install the PHP agent
   apt:
     name: newrelic-php5
-    state: latest
+    state: "{{ newrelic_package_state }}"
     update_cache: yes
