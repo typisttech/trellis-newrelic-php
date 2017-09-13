@@ -48,7 +48,7 @@ Add this role to `requirements.yml`:
 
 ```yaml
 - src: TypistTech.trellis-newrelic-php # Case-sensitive!
-  version: 0.2.0 # Check for latest version!
+  version: 0.2.1 # Check for latest version!
 ```
 
 Run `$ ansible-galaxy install -r requirements.yml` to install this new role.
