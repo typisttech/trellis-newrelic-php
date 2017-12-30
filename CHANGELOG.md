@@ -1,10 +1,20 @@
 # Change Log
 
+## [0.2.2](https://github.com/TypistTech/trellis-newrelic-php/tree/0.2.2) (2017-12-30)
+[Full Changelog](https://github.com/TypistTech/trellis-newrelic-php/compare/0.2.1...0.2.2)
+
+**Merged pull requests:**
+
+- Fix: PHP conf.d location [\#12](https://github.com/TypistTech/trellis-newrelic-php/pull/12) ([TangRufus](https://github.com/TangRufus))
+- Respect `apt\_cache\_valid\_time` [\#11](https://github.com/TypistTech/trellis-newrelic-php/pull/11) ([TangRufus](https://github.com/TangRufus))
+- Fix: Incorrect link [\#10](https://github.com/TypistTech/trellis-newrelic-php/pull/10) ([TangRufus](https://github.com/TangRufus))
+
 ## [0.2.1](https://github.com/TypistTech/trellis-newrelic-php/tree/0.2.1) (2017-09-13)
 [Full Changelog](https://github.com/TypistTech/trellis-newrelic-php/compare/0.2.0...0.2.1)
 
 **Merged pull requests:**
 
+- Version bump 0.2.1 [\#9](https://github.com/TypistTech/trellis-newrelic-php/pull/9) ([TangRufus](https://github.com/TangRufus))
 - Allow overriding newrelic package state [\#8](https://github.com/TypistTech/trellis-newrelic-php/pull/8) ([TangRufus](https://github.com/TangRufus))
 - Test: Remove tests/inventory [\#7](https://github.com/TypistTech/trellis-newrelic-php/pull/7) ([TangRufus](https://github.com/TangRufus))
 - Defer `update\_cache: yes` to `apt` task [\#6](https://github.com/TypistTech/trellis-newrelic-php/pull/6) ([TangRufus](https://github.com/TangRufus))
