@@ -1,10 +1,18 @@
 # Change Log
 
+## [0.3.0](https://github.com/TypistTech/trellis-newrelic-php/tree/0.3.0) (2018-01-03)
+[Full Changelog](https://github.com/TypistTech/trellis-newrelic-php/compare/0.2.2...0.3.0)
+
+**Merged pull requests:**
+
+- Template New Relic .ini file out to both fpm and cli conf.d [\#14](https://github.com/TypistTech/trellis-newrelic-php/pull/14) ([TangRufus](https://github.com/TangRufus))
+
 ## [0.2.2](https://github.com/TypistTech/trellis-newrelic-php/tree/0.2.2) (2017-12-30)
 [Full Changelog](https://github.com/TypistTech/trellis-newrelic-php/compare/0.2.1...0.2.2)
 
 **Merged pull requests:**
 
+- Version bump 0.2.2 [\#13](https://github.com/TypistTech/trellis-newrelic-php/pull/13) ([TangRufus](https://github.com/TangRufus))
 - Fix: PHP conf.d location [\#12](https://github.com/TypistTech/trellis-newrelic-php/pull/12) ([TangRufus](https://github.com/TangRufus))
 - Respect `apt\_cache\_valid\_time` [\#11](https://github.com/TypistTech/trellis-newrelic-php/pull/11) ([TangRufus](https://github.com/TangRufus))
 - Fix: Incorrect link [\#10](https://github.com/TypistTech/trellis-newrelic-php/pull/10) ([TangRufus](https://github.com/TangRufus))

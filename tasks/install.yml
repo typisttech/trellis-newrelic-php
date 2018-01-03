@@ -1,13 +1,13 @@
 ---
-- name: Trust the New Relic GPG key
+- name: Trust New Relic GPG key
   apt_key:
     url: 'https://download.newrelic.com/548C16BF.gpg'
 
-- name: Configure the New Relic apt repository
+- name: Configure New Relic apt repository
   apt_repository:
     repo: 'deb http://apt.newrelic.com/debian/ newrelic non-free'
 
-- name: Install the PHP agent
+- name: Install New Relic PHP agent
   apt:
     name: newrelic-php5
     state: "{{ newrelic_package_state }}"
