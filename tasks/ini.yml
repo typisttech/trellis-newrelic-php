@@ -7,8 +7,14 @@
   set_fact:
     php_version: "{{ php_version_raw.stdout }}"
 
-- name: Template New Relic .ini file out to conf.d
+- name: Template New Relic .ini file out to fpm conf.d
   template:
     src: 20-newrelic.ini.j2
     dest: "/etc/php/{{ php_version }}/fpm/conf.d/20-newrelic.ini"
+  notify: reload php-fpm
+
+- name: Template New Relic .ini file out to cli conf.d
+  template:
+    src: 20-newrelic.ini.j2
+    dest: "/etc/php/{{ php_version }}/cli/conf.d/20-newrelic.ini"
   notify: reload php-fpm
