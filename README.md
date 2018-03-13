@@ -114,9 +114,23 @@ newrelic_config:
   appname: "My Awesome App {{ env }}"
 ```
 
+### Error after upgrading PHP version
+
+New Relic would fail and causes provision end up in errors when upgrading PHP minor releases (e.g: from 7.1 to 7.2).
+
+After PHP minor release upgrade (i.e: when you see the error):
+```
+➜ ssh admin@123.456.789
+➜ sudo newrelic-install install
+➜ sudo reboot
+
+# Wait for server reboot and re-provision again
+➜ ansible-playbook server.yml -e env=production
+```
+
 ## Limitations
 
-### Only one New Relic APM application per server
+* Only one New Relic APM application per server
 
 Pull requests are welcomed.
 
