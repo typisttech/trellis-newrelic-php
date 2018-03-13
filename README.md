@@ -20,11 +20,11 @@ Install [New Relic PHP agent](https://docs.newrelic.com/docs/agents/php-agent) o
 - [Common Errors](#common-errors)
   - [`vault_newrelic_license` is not defined](#vault_newrelic_license-is-not-defined)
   - [New Relic merges multiple environments into single application](#new-relic-merges-multiple-environments-into-single-application)
+  - [Error after upgrading PHP version](#error-after-upgrading-php-version)
 - [Limitations](#limitations)
-  - [Only one New Relic APM application per server](#only-one-new-relic-apm-application-per-server)
 - [See Also](#see-also)
 - [Support!](#support)
-  - [Donate via PayPal *](#donate-via-paypal-)
+  - [Donate](#donate)
   - [Why don't you hire me?](#why-dont-you-hire-me)
   - [Want to help in other way? Want to be a sponsor?](#want-to-help-in-other-way-want-to-be-a-sponsor)
 - [Feedback](#feedback)
@@ -48,7 +48,7 @@ Add this role to `requirements.yml`:
 
 ```yaml
 - src: TypistTech.trellis-newrelic-php # Case-sensitive!
-  version: 0.3.0 # Check for latest version!
+  version: 0.4.0 # Check for latest version!
 ```
 
 Run `$ ansible-galaxy install -r requirements.yml` to install this new role.

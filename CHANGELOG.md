@@ -1,10 +1,18 @@
 # Change Log
 
+## [0.4.0](https://github.com/TypistTech/trellis-newrelic-php/tree/0.4.0) (2018-03-13)
+[Full Changelog](https://github.com/TypistTech/trellis-newrelic-php/compare/0.3.0...0.4.0)
+
+**Merged pull requests:**
+
+- Delete default `newrelic.ini`; Symlink from `mods-available` [\#17](https://github.com/TypistTech/trellis-newrelic-php/pull/17) ([TangRufus](https://github.com/TangRufus))
+
 ## [0.3.0](https://github.com/TypistTech/trellis-newrelic-php/tree/0.3.0) (2018-01-03)
 [Full Changelog](https://github.com/TypistTech/trellis-newrelic-php/compare/0.2.2...0.3.0)
 
 **Merged pull requests:**
 
+- Version bump 0.3.0 [\#15](https://github.com/TypistTech/trellis-newrelic-php/pull/15) ([TangRufus](https://github.com/TangRufus))
 - Template New Relic .ini file out to both fpm and cli conf.d [\#14](https://github.com/TypistTech/trellis-newrelic-php/pull/14) ([TangRufus](https://github.com/TangRufus))
 
 ## [0.2.2](https://github.com/TypistTech/trellis-newrelic-php/tree/0.2.2) (2017-12-30)
