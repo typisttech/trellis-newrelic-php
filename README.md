@@ -116,9 +116,17 @@ newrelic_config:
 
 ### Error after upgrading PHP version
 
-New Relic would fail and causes provision end up in errors when upgrading PHP minor releases (e.g: from 7.1 to 7.2).
+New Relic would fail and causes provision end up in errors when upgrading PHP minor releases (e.g: from 7.2 to 7.3).
+```
+non-zero return code
+PHP Warning:  PHP Startup: Unable to load dynamic library 'newrelic.so'
+(tried: /usr/lib/php/20180731/newrelic.so (/usr/lib/php/20180731/newrelic.so:
+cannot open shared object file: No such file or directory),
+/usr/lib/php/20180731/newrelic.so.so (/usr/lib/php/20180731/newrelic.so.so:
+cannot open shared object file: No such file or directory)) in Unknown on
+```
 
-After PHP minor release upgrade (i.e: when you see the error):
+After PHP minor release upgrade (i.e: when you see the above error):
 ```
 ➜ ssh admin@123.456.789
 ➜ sudo newrelic-install install
