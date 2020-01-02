@@ -138,7 +138,7 @@ After PHP minor release upgrade (i.e: when you see the above error):
 
 ## Limitations
 
-* Only one New Relic APM application per server
+* Only one New Relic APM application per server by default. Add `fastcgi_param PHP_VALUE "newrelic.appname={{ item.key }} ({{ env }})";` to the `/roles/wordpress-setup/templates/wordpress-site.conf.j2` file right after the line `include fastcgi_params;` to work around this limitation.
 
 Pull requests are welcomed.
 
