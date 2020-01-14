@@ -2,6 +2,7 @@
 - name: Find PHP version
   shell: "php -r 'echo PHP_MAJOR_VERSION . \".\" . PHP_MINOR_VERSION;'"
   register: php_version_raw
+  changed_when: false
 
 - name: Set Fact -- PHP version
   set_fact:
