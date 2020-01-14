@@ -17,6 +17,6 @@ extension = "newrelic.so"
 ; https://github.com/typisttech/trellis-newrelic-php#role-variables
 ;
 
-{% for key, value in newrelic_config_combined.iteritems() -%}
+{% for key, value in newrelic_config_combined.items() -%}
 newrelic.{{ key }} = {{ value | to_nice_json }}
 {% endfor -%}
