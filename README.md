@@ -42,10 +42,10 @@ Install [New Relic PHP agent](https://docs.newrelic.com/docs/agents/php-agent) o
 
 ## Requirements
 
-* [Ansible](http://docs.ansible.com/ansible/latest/intro_installation.html) 2.3 or later
-* [Trellis](https://github.com/roots/trellis)
+* [Ansible](http://docs.ansible.com/ansible/latest/intro_installation.html) v2.7 or later
+* Python v3.7.6 or later
+* [Trellis](https://github.com/roots/trellis) v1.3.0 or later
 * [New Relic](https://newrelic.com/) account
-* Ubuntu 16.04 (Xenial)
 
 ## Installation
 
