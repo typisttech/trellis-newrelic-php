@@ -92,12 +92,14 @@ newrelic_config:
 
 Add this role to `dev.yml` and `server.yml` **immediately after** `role: php`:
 
-```yaml
-roles:
-    # Some other Trellis roles ...
-    - { role: php, tags: [php] }
-    - { role: TypistTech.trellis-newrelic-php, tags: [php, newrelic-php] }
-    # Some other Trellis roles ...
+```diff
+  # `dev.yml` & `server.yml`
+
+  roles:
+      # Some other Trellis roles ...
+      - { role: php, tags: [php] }
++     - { role: TypistTech.trellis-newrelic-php, tags: [php, newrelic-php] }
+      # Some other Trellis roles ...
 ```
 
 ## Common Errors
