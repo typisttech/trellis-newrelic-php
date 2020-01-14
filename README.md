@@ -178,7 +178,7 @@ Thanks! Glad you like it. It's important to let me know somebody is using this p
 - tweet something good with mentioning [@TangRufus](https://twitter.com/tangrufus)
 - write blog posts
 - submit [pull requests](https://github.com/TypistTech/trellis-newrelic-php)
-- [hire me](https://typis.tech/)
+- [hire me](https://typist.tech/)
 
 ## Sponsoring :heart:
 
