@@ -123,7 +123,7 @@ newrelic_config:
 
 ### Error after upgrading PHP version
 
-New Relic would fail and causes provision end up in errors when upgrading PHP minor releases (e.g: from 7.2 to 7.3).
+New Relic would fail and causes provision end up in errors when upgrading PHP minor releases (e.g: from 7.3 to 7.4).
 ```
 non-zero return code
 PHP Warning:  PHP Startup: Unable to load dynamic library 'newrelic.so'
@@ -134,13 +134,15 @@ cannot open shared object file: No such file or directory)) in Unknown on
 ```
 
 After PHP minor release upgrade (i.e: when you see the above error):
-```
-➜ ssh admin@123.456.789
-➜ sudo newrelic-install install
-➜ sudo reboot
+```bash
+ssh admin@123.456.789
+sudo newrelic-install install
+sudo reboot
 
-# Wait for server reboot and re-provision again
-➜ ansible-playbook server.yml -e env=production
+# Wait for server reboot and then re-provision
+trellis provision production
+# Alternatively
+ansible-playbook server.yml -e env=production
 ```
 
 ## Limitations
