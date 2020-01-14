@@ -158,11 +158,38 @@ Pull requests are welcomed.
 * [New Relic PHP agent docs](https://docs.newrelic.com/docs/agents/php-agent)
 * [Ansible Vault](https://roots.io/trellis/docs/vault/)
 
-## Support!
+## FAQs
 
-### Donate
+### It looks awesome. Where can I find some more goodies like this?
 
-Love Trellis New Relic PHP Agent? Help me maintain it, a [donation](https://typist.tech/donation/) can help with it.
+* Articles on Typist Tech's [blog](https://typist.tech)
+* [Tang Rufus' WordPress plugins](https://profiles.wordpress.org/tangrufus#content-plugins) on wp.org
+* More projects on [Typist Tech's GitHub profile](https://github.com/TypistTech)
+* Stay tuned on [Typist Tech's newsletter](https://typist.tech/go/newsletter)
+* Follow [Tang Rufus' Twitter account](https://twitter.com/TangRufus)
+* Hire [Tang Rufus](https://typist.tech/contact) to build your next awesome site
+
+### This package isn't on wp.org. Where can I give a :star::star::star::star::star: review?
+
+Thanks! Glad you like it. It's important to let me know somebody is using this project. Since this is not hosted on wordpress.org, please consider:
+
+- tweet something good with mentioning [@TangRufus](https://twitter.com/tangrufus)
+- :star: star this [Github repo](https://github.com/TypistTech/trellis-newrelic-php)
+- :eyes: [watch](https://github.com/TypistTech/trellis-newrelic-php/subscription) this Github repo
+- write blog posts
+- submit [pull requests](https://github.com/TypistTech/trellis-newrelic-php)
+- [hire me](https://typis.tech/)
+- :heart: [sponsor](https://github.com/sponsors/TangRufus) this project
+
+## Sponsoring :heart:
+
+Love `trellis-newrelic-php`? Help me maintain it, a [sponsorship here](https://typist.tech/donation/) can help with it.
+
+### GitHub Sponsors Matching Fund
+
+Do you know [GitHub is going to match your sponsorship](https://help.github.com/en/github/supporting-the-open-source-community-with-github-sponsors/about-github-sponsors#about-the-github-sponsors-matching-fund)?
+
+[Sponsor now via GitHub](https://github.com/sponsors/TangRufus) to double your greatness.
 
 ### Why don't you hire me?
 
@@ -172,6 +199,15 @@ Ready to take freelance WordPress jobs. Contact me via the contact form [here](h
 
 Contact: [Tang Rufus](mailto:tangrufus@gmail.com)
 
+## Running the Tests
+
+Run the tests:
+
+``` bash
+ansible-playbook -i 'localhost,' --syntax-check tests/test.yml
+ansible-lint tests/test.yml
+```
+
 ## Feedback
 
 **Please provide feedback!** We want to make this library useful in as many projects as possible.
@@ -180,15 +216,20 @@ Please submit an [issue](https://github.com/TypistTech/trellis-newrelic-php/issu
 
 ## Change log
 
-Please see [CHANGELOG](./CHANGELOG.md) for more information on what has changed recently.
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
-## Author Information
+## Security
 
-[Trellis New Relic PHP Agent](https://github.com/TypistTech/trellis-newrelic-php) is a [Typist Tech](https://typist.tech) project and maintained by [Tang Rufus](https://twitter.com/Tangrufus), freelance developer for [hire](https://typist.tech/contact/).
+If you discover any security related issues, please email [trellis-newrelic-php@typist.tech](mailto:trellis-newrelic-php@typist.tech) instead of using the issue tracker.
+
+## Credits
+
+[Trellis New Relic PHP Agent](https://github.com/TypistTech/trellis-newrelic-php) is a [Typist Tech](https://typist.tech) project and maintained by [Tang Rufus](https://twitter.com/TangRufus), freelance developer for [hire](https://www.typist.tech/contact/).
+
+Full list of contributors can be found [here](https://github.com/TypistTech/trellis-newrelic-php/graphs/contributors).
 
 Special thanks to [the Roots team](https://roots.io/about/) whose [Trellis](https://github.com/roots/trellis) make this project possible.
 
-Full list of contributors can be found [here](https://github.com/TypistTech/trellis-newrelic-php/graphs/contributors).
 
 ## Contributing
 
