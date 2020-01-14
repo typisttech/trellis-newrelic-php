@@ -24,7 +24,6 @@
   - [New Relic merges multiple environments into single application](#new-relic-merges-multiple-environments-into-single-application)
   - [Error after upgrading PHP version](#error-after-upgrading-php-version)
 - [Limitations](#limitations)
-- [See Also](#see-also)
 - [FAQs](#faqs)
   - [It looks awesome. Where can I find some more goodies like this?](#it-looks-awesome-where-can-i-find-some-more-goodies-like-this)
   - [This package isn't on wp.org. Where can I give a :star::star::star::star::star: review?](#this-package-isnt-on-wporg-where-can-i-give-a-starstarstarstarstar-review)
