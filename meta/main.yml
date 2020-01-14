@@ -4,11 +4,12 @@ galaxy_info:
   company: Typist Tech
   issue_tracker_url: https://github.com/TypistTech/trellis-newrelic-php/issues
   license: MIT
-  min_ansible_version: 2.3
+  min_ansible_version: 2.7
   platforms:
-  - name: Ubuntu
-    versions:
-    - xenial
+    - name: Ubuntu
+      versions:
+        - xenial
+        - bionic
   galaxy_tags:
     - trellis
     - wordpress
