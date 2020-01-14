@@ -1,5 +1,6 @@
 ---
-- fail:
+- name: Fail if vault_newrelic_license is not defined
+  fail:
     msg: vault_newrelic_license is not defined
   when: vault_newrelic_license is not defined
 
