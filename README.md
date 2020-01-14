@@ -172,13 +172,13 @@ Pull requests are welcomed.
 
 Thanks! Glad you like it. It's important to let me know somebody is using this project. Since this is not hosted on wordpress.org, please consider:
 
-- tweet something good with mentioning [@TangRufus](https://twitter.com/tangrufus)
+- :heart: [sponsor](https://github.com/sponsors/TangRufus) this project
 - :star: star this [Github repo](https://github.com/TypistTech/trellis-newrelic-php)
 - :eyes: [watch](https://github.com/TypistTech/trellis-newrelic-php/subscription) this Github repo
+- tweet something good with mentioning [@TangRufus](https://twitter.com/tangrufus)
 - write blog posts
 - submit [pull requests](https://github.com/TypistTech/trellis-newrelic-php)
 - [hire me](https://typis.tech/)
-- :heart: [sponsor](https://github.com/sponsors/TangRufus) this project
 
 ## Sponsoring :heart:
 
