@@ -1,11 +1,16 @@
 # Trellis New Relic PHP Agent
 
-[![Ansible Role](https://img.shields.io/ansible/role/20311.svg)](https://galaxy.ansible.com/TypistTech/trellis-newrelic-php/)
-[![Build Status](https://travis-ci.org/TypistTech/trellis-newrelic-php.svg?branch=master)](https://travis-ci.org/TypistTech/trellis-newrelic-php)
-[![GitHub tag](https://img.shields.io/github/tag/TypistTech/trellis-newrelic-php.svg)](https://github.com/TypistTech/trellis-newrelic-php/tags)
-[![license](https://img.shields.io/github/license/TypistTech/trellis-newrelic-php.svg)](https://github.com/TypistTech/trellis-newrelic-php/blob/master/LICENSE)
-[![Donate](https://img.shields.io/badge/Help-Donate-blue.svg)](https://typist.tech/donation/)
+[![Ansible Role](https://img.shields.io/ansible/role/20311?style=flat-square)](https://galaxy.ansible.com/TypistTech/trellis-newrelic-php)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/TypistTech/trellis-newrelic-php?style=flat-square)](https://github.com/TypistTech/trellis-newrelic-php/releases)
+[![Ansible Role](https://img.shields.io/ansible/role/d/20311?style=flat-square)](https://galaxy.ansible.com/TypistTech/trellis-newrelic-php)
+[![CircleCI](https://circleci.com/gh/TypistTech/trellis-newrelic-php.svg?style=svg)](https://circleci.com/gh/TypistTech/trellis-newrelic-php)
+[![Ansible Quality Score](https://img.shields.io/ansible/quality/20311?style=flat-square)](https://galaxy.ansible.com/TypistTech/trellis-newrelic-php)
+[![GitHub](https://img.shields.io/github/license/TypistTech/trellis-newrelic-php.svg)](https://github.com/TypistTech/trellis-newrelic-php/blob/master/LICENSE.md)
+[![GitHub Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa)](https://github.com/sponsors/TangRufus)
+[![Sponsor via PayPal](https://img.shields.io/badge/Sponsor-PayPal-blue.svg)](https://typist.tech/donate/trellis-newrelic-php/)
 [![Hire Typist Tech](https://img.shields.io/badge/Hire-Typist%20Tech-ff69b4.svg)](https://typist.tech/contact/)
+[![Twitter Follow @TangRufus](https://img.shields.io/twitter/follow/TangRufus?style=flat-square&color=1da1f2)](https://twitter.com/tangrufus)
+
 
 Install [New Relic PHP agent](https://docs.newrelic.com/docs/agents/php-agent) on [Trellis](https://github.com/roots/trellis) servers
 
