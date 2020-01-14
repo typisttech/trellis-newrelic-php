@@ -13,25 +13,26 @@ Install [New Relic PHP agent](https://docs.newrelic.com/docs/agents/php-agent) o
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Role Variables](#role-variables)
-- [Hacking Trellis' Playbook](#hacking-trellis-playbook)
-- [Common Errors](#common-errors)
-  - [`vault_newrelic_license` is not defined](#vault_newrelic_license-is-not-defined)
-  - [New Relic merges multiple environments into single application](#new-relic-merges-multiple-environments-into-single-application)
-  - [Error after upgrading PHP version](#error-after-upgrading-php-version)
-- [Limitations](#limitations)
-- [See Also](#see-also)
-- [Support!](#support)
-  - [Donate](#donate)
-  - [Why don't you hire me?](#why-dont-you-hire-me)
-  - [Want to help in other way? Want to be a sponsor?](#want-to-help-in-other-way-want-to-be-a-sponsor)
-- [Feedback](#feedback)
-- [Change log](#change-log)
-- [Author Information](#author-information)
-- [Contributing](#contributing)
-- [License](#license)
+- [Trellis New Relic PHP Agent](#trellis-new-relic-php-agent)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Role Variables](#role-variables)
+  - [Hacking Trellis' Playbook](#hacking-trellis-playbook)
+  - [Common Errors](#common-errors)
+    - [vault_newrelic_license is not defined](#vaultnewreliclicense-is-not-defined)
+    - [New Relic merges multiple environments into single application](#new-relic-merges-multiple-environments-into-single-application)
+    - [Error after upgrading PHP version](#error-after-upgrading-php-version)
+  - [Limitations](#limitations)
+  - [See Also](#see-also)
+  - [Support!](#support)
+    - [Donate](#donate)
+    - [Why don't you hire me?](#why-dont-you-hire-me)
+    - [Want to help in other way? Want to be a sponsor?](#want-to-help-in-other-way-want-to-be-a-sponsor)
+  - [Feedback](#feedback)
+  - [Change log](#change-log)
+  - [Author Information](#author-information)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -138,7 +139,9 @@ After PHP minor release upgrade (i.e: when you see the above error):
 
 ## Limitations
 
-* Only one New Relic APM application per server by default. Add `fastcgi_param PHP_VALUE "newrelic.appname={{ item.key }} ({{ env }})";` to the `/roles/wordpress-setup/templates/wordpress-site.conf.j2` file right after the line `include fastcgi_params;` to work around this limitation.
+* Only one New Relic APM application per server by default.
+
+[`Extends`](https://jinja.palletsprojects.com/en/2.10.x/templates/#template-inheritance) the [`fastcgi_basic` block](https://github.com/roots/trellis/blob/73cbfb9ff840b7b55b60c77ee7d655c54211dbc1/roles/wordpress-setup/templates/wordpress-site.conf.j2#L236-L241) to include `fastcgi_param PHP_VALUE "newrelic.appname={{ item.key }} ({{ env }})";` right after the line `include fastcgi_params;` to work around this limitation.
 
 Pull requests are welcomed.
 
