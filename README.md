@@ -157,11 +157,6 @@ ansible-playbook server.yml -e env=production
 
 Pull requests are welcomed.
 
-## See Also
-
-* [New Relic PHP agent docs](https://docs.newrelic.com/docs/agents/php-agent)
-* [Ansible Vault](https://roots.io/trellis/docs/vault/)
-
 ## FAQs
 
 ### It looks awesome. Where can I find some more goodies like this?
