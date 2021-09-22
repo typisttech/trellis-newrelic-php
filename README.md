@@ -46,12 +46,13 @@ Install [New Relic PHP agent](https://docs.newrelic.com/docs/agents/php-agent) o
 ## Role Variables
 
 ```yaml
-# group_vars/<environment>/vault.yml
+# group_vars/<environment>/vault.yml or host_vars/<host>/vault.yml
 # This file should be encrypted. See: https://roots.io/trellis/docs/vault/
 ##########################################################################
 
 # New Relic License Key
 ## See: https://docs.newrelic.com/docs/accounts-partnerships/accounts/account-setup/license-key
+# vault_newrelic_license: false
 vault_newrelic_license: xxxxxxxxxxx
 
 # group_vars/<environment>/main.yml
@@ -104,6 +105,10 @@ Add this role to `requirements.yml`:
 ```
 
 Run `$ ansible-galaxy install -r requirements.yml` to install this new role.
+
+## Multiple servers
+
+As an alternative to setting the license key for an environment under `group_vars` you can set it for a single server under `host_vars`. You can explicitly set `false` to skip a group or host, or omit the variable from the vault file. A warning will be shown when setup is skipped.
 
 ## Common Errors
 

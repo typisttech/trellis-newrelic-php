@@ -1,8 +1,11 @@
 ---
-- name: Fail if vault_newrelic_license is not defined
-  fail:
-    msg: vault_newrelic_license is not defined
-  when: vault_newrelic_license is not defined
+- name: Warn if vault_newrelic_license is not defined
+  debug:
+      msg: |
+        Note: Skipping New Relic tasks. vault_newrelic_license is not set. Make sure this is set in vault.yml.
+  when: newrelic_license == false
 
 - include: install.yml
+  when: newrelic_license != false
 - include: ini.yml
+  when: newrelic_license != false

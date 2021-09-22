@@ -1,7 +1,9 @@
 newrelic_package_state: latest
 
+newrelic_license: "{{ vault_newrelic_license | default(false) }}"
+
 newrelic_config_default:
-  license: "{{ vault_newrelic_license }}"
+  license: "{{ newrelic_license }}"
   appname: "{{ wordpress_sites.keys() | first }} {{ env }}"
   framework: wordpress
   logfile: /var/log/newrelic/php_agent.log
