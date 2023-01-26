@@ -96,7 +96,7 @@ Add this role to `dev.yml` and `server.yml` **immediately after** `role: php`:
 
 ## Installation
 
-Add this role to `requirements.yml`:
+Add this role to `galaxy.yml`:
 
 ```yaml
 - src: TypistTech.trellis-newrelic-php # Case-sensitive!
