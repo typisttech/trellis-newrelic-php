@@ -11,34 +11,6 @@
 [![Hire Typist Tech](https://img.shields.io/badge/Hire-Typist%20Tech-ff69b4.svg)](https://typist.tech/contact/)
 [![Twitter Follow @TangRufus](https://img.shields.io/twitter/follow/TangRufus?style=flat-square&color=1da1f2)](https://twitter.com/tangrufus)
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-
-- [Role Variables](#role-variables)
-- [Hacking Trellis' Playbook](#hacking-trellis-playbook)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Common Errors](#common-errors)
-  - [`vault_newrelic_license` is not defined](#vault_newrelic_license-is-not-defined)
-  - [New Relic merges multiple environments into single application](#new-relic-merges-multiple-environments-into-single-application)
-  - [Error after upgrading PHP version](#error-after-upgrading-php-version)
-- [Limitations](#limitations)
-- [FAQs](#faqs)
-  - [It looks awesome. Where can I find some more goodies like this?](#it-looks-awesome-where-can-i-find-some-more-goodies-like-this)
-  - [This package isn't on wp.org. Where can I give a :star::star::star::star::star: review?](#this-package-isnt-on-wporg-where-can-i-give-a-starstarstarstarstar-review)
-- [Sponsoring :heart:](#sponsoring-heart)
-  - [GitHub Sponsors Matching Fund](#github-sponsors-matching-fund)
-  - [Why don't you hire me?](#why-dont-you-hire-me)
-  - [Want to help in other way? Want to be a sponsor?](#want-to-help-in-other-way-want-to-be-a-sponsor)
-- [Running the Tests](#running-the-tests)
-- [Feedback](#feedback)
-- [Security](#security)
-- [Credits](#credits)
-- [Contributing](#contributing)
-- [License](#license)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 Install [New Relic PHP agent](https://docs.newrelic.com/docs/agents/php-agent) on [Trellis](https://github.com/roots/trellis) servers.
 
