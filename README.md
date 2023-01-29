@@ -3,7 +3,6 @@
 [![Ansible Role](https://img.shields.io/ansible/role/20311?style=flat-square)](https://galaxy.ansible.com/TypistTech/trellis-newrelic-php)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/TypistTech/trellis-newrelic-php?style=flat-square)](https://github.com/TypistTech/trellis-newrelic-php/releases)
 [![Ansible Role](https://img.shields.io/ansible/role/d/20311?style=flat-square)](https://galaxy.ansible.com/TypistTech/trellis-newrelic-php)
-[![CircleCI](https://circleci.com/gh/TypistTech/trellis-newrelic-php.svg?style=svg)](https://circleci.com/gh/TypistTech/trellis-newrelic-php)
 [![Ansible Quality Score](https://img.shields.io/ansible/quality/20311?style=flat-square)](https://galaxy.ansible.com/TypistTech/trellis-newrelic-php)
 [![GitHub](https://img.shields.io/github/license/TypistTech/trellis-newrelic-php.svg)](https://github.com/TypistTech/trellis-newrelic-php/blob/master/LICENSE.md)
 [![GitHub Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa)](https://github.com/sponsors/TangRufus)
