@@ -168,15 +168,6 @@ Ready to take freelance WordPress jobs. Contact me via the contact form [here](h
 
 Contact: [Tang Rufus](mailto:tangrufus@gmail.com)
 
-## Running the Tests
-
-Run the tests:
-
-``` bash
-ansible-playbook -i 'localhost,' --syntax-check tests/test.yml
-ansible-lint tests/test.yml
-```
-
 ## Feedback
 
 **Please provide feedback!** We want to make this library useful in as many projects as possible.
